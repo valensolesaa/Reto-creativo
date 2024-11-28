@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda</title>
+    <script src="https://kit.fontawesome.com/969080f10c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../estilos/basico.css">
+    <link rel="stylesheet" href="../estilos/busqueda.css">
+</head>
+<body>
+    <div class="body-div">
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="../index.html"><i class="fa-solid fa-house"></i></a>
+                    <span class="tooltip">Home</span>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <span class="tooltip">Buscar</span>
+                </li>
+                <li>
+                    <a href="ranking.html"><i class="fa-solid fa-ranking-star"></i></a>
+                    <span class="tooltip">Ranking</span>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <span class="tooltip">Expertos</span>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-solid fa-user"></i></a>
+                    <span class="tooltip">Cuenta</span>
+                </li>
+            </ul>
+        </div>
+        <header>
+            <img src="../imgs/Reto_Creativo.png" alt="">
+            <div class="botones-header">
+                <button id="open-modal-btn"><i class="fa-regular fa-bell"></i></button>
+                <button class="crear-reto">+ Crear Desafío</button> 
+            </div>
+        </header>
+        <div class="content"> 
+            <div class="buscador">
+                <input type="text" placeholder="Buscar...">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="resultad_cont">
+                <div class="profile-card">
+                    <img src="https://via.placeholder.com/100" alt="Avatar">
+                    <div class="profile-info">
+                        <h2>Juan Pérez</h2>
+                        <p>Desarrollador Web en Madrid</p>
+                        <button class="view-profile">Ver perfil</button>
+                    </div>
+                </div>
+    
+                <div class="profile-card">
+                    <img src="https://via.placeholder.com/100" alt="Avatar">
+                    <div class="profile-info">
+                        <h2>Ana López</h2>
+                        <p>Diseñadora Gráfica en Barcelona</p>
+                        <button class="view-profile">Ver perfil</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="bottom-footer">
+                <p>Copyright &copy;2024; Reto Creativo</p>
+            </div>
+        </footer>
+    </div>
+    <div class="modalnotis" id="modal-notis">
+        <div class="modal-contenido">
+            <div class="arriba">
+                <h2>Notificaciones</h2>
+                <button><i class="fa-solid fa-trash-can"></i></button>
+            </div>
+            <div class="notis_cont">
+                <ul id="notificaciones">
+                    <li><a href=""><img class="userimg" src="../imgs/logo-retocreativo.png">Esto es una notificacion :p</a></li>
+                    <li><a href="#"><img class="userimg" src="../imgs/logo-retocreativo.png">Esto es una notificacion :p</a></li>
+                    <li><a href="#"><img class="userimg" src="../imgs/logo-retocreativo.png">Esto es una notificacion :p</a></li>
+                    <li><a href="#"><img class="userimg" src="../imgs/logo-retocreativo.png">Esto es una notificacion :p</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>    
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
