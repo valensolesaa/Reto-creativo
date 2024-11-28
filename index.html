@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/basico.css">
+    <link rel="stylesheet" href="estilos/home.css">
+    <script src="https://kit.fontawesome.com/969080f10c.js" crossorigin="anonymous"></script>
+    <title>Reto Creativo</title>
+</head>
+<body>
+    <div class="body-div">
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="index.html"><i class="fa-solid fa-house"></i></a>
+                    <span class="tooltip">Home</span>
+                </li>
+                <li>
+                    <a href="vistas/busqueda.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <span class="tooltip">Buscar</span>
+                </li>
+                <li>
+                    <a href="vistas/ranking.html"><i class="fa-solid fa-ranking-star"></i></a>
+                    <span class="tooltip">Ranking</span>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <span class="tooltip">Expertos</span>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-solid fa-user"></i></a>
+                    <span class="tooltip">Cuenta</span>
+                </li>
+            </ul>
+        </div>
+        <header>
+            <img src="imgs/Reto_Creativo.png" alt="">
+            <div class="botones-header">
+                <button id="open-modal-btn"><i class="fa-regular fa-bell"></i></button>
+                <button class="crear-reto">+ Crear Desafío</button> 
+            </div>
+        </header>
+        <div class="content">
+            <div class="descripcion-pag">
+                <h1>¡Compartí tu creatividad!</h1>
+                <p>Explorá, creá, divertite y ¡Retá a tu creatividad!</p>
+            </div>
+            <section>
+                <h2>Desafío Mensual</h2>
+                <div class="mensuales">
+                    <ul>
+                            <li>
+                                <a href="">Diseño Gráfico</a>
+                            </li>
+                            <li>
+                                <a href="">Fotografía</a>
+                            </li>
+                            <li>
+                                <a href="">Escritura Creativa</a>
+                            </li>
+                            <li>
+                                <a href="">Desarrollo Web</a>
+                            </li>
+                            <li>
+                                <a href="">Ciencia y Tecnología</a>
+                            </li>
+                            <li>
+                                <a href="">Música</a>
+                            </li>
+                    </ul>
+                </div>
+                <h2>Destacados entre usuarios creativos</h2>
+                <div class="destacados-user">
+                    <div class="card-destacados">
+                        <h3>Categoría</h3>
+                        <i class="fa-solid fa-user"></i>
+                        <h4>User</h4>
+                        <p>Descripción sobre el desafío</p>
+                        <button>Participar</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="bottom-footer">
+                <p>Copyright &copy;2024; Reto Creativo</p>
+            </div>
+        </footer>
+    </div> 
+    <div class="modalnotis" id="modal-notis">
+        <div class="modal-contenido">
+            <div class="arriba">
+                <h2>Notificaciones</h2>
+                <button><i class="fa-solid fa-trash-can"></i></button>
+            </div>
+            <div class="notis_cont">
+                <ul id="notificaciones">
+                    <li><a href=""><img class="userimg" src="imgs/logo-retocreativo.png">Esto es una notificacion :p</a></li>
+                    <li><a href="#"><img class="userimg" src="imgs/logo-retocreativo.png">Esto es una notificacion :p</a></li>
+                    <li><a href="#"><img class="userimg" src="imgs/logo-retocreativo.png">Esto es una notificacion :p</a></li>
+                    <li><a href="#"><img class="userimg" src="imgs/logo-retocreativo.png">Esto es una notificacion :p</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>    
+    <script src="scripts/script.js"></script>
+</body>
+</html>
